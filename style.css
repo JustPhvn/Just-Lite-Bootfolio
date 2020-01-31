@@ -2,3 +2,10 @@
   float: left;
   margin-right: 10px;
 }
+.box {
+  background-color: purple;
+  color: white;
+  height: auto;
+  width: auto;
+  position: relative;
+}

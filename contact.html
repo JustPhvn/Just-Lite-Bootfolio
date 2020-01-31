@@ -13,8 +13,8 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html">Justice</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
+      <a class="navbar-brand col-5" href="index.html">Justice</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -28,7 +28,7 @@
       </button>
 
       <div
-        class="collapse navbar-collapse justify-content-end"
+        class="collapse navbar-collapse justify-content-end container"
         id="navbarCollapse"
       >
         <ul class="navbar-nav">
@@ -44,6 +44,39 @@
         </ul>
       </div>
     </nav>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Full Name</label>
+          <input
+            type="name"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Some Name"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput2">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput2"
+            placeholder="name@example.com"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+      </form>
+      <button type="button" class="btn btn-dark">Submit</button>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
